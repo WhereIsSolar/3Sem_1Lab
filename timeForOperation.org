@@ -1,0 +1,53 @@
+|-----------+------------+----------------|      |------------+-----------|
+|           | Forward L. | Doub.-Link. L. |	 | R-B Tree   |           |
+|-----------+------------+----------------|	 |------------+-----------|
+| Name      | Notation   | Notation       |	 | Name       | Notat     |
+|-----------+------------+----------------|	 |------------+-----------|
+| AddHead   | O(1)       | O(1)           |	 | Insert     | O(log(n)) |
+| AddTail   | O(n)       | O(1)           |	 | Remove     | O(log(n)) |
+| AddBefore | O(n)       | O(n)           |	 | Print      | O(n)      |
+| AddAfter  | O(n)       | O(n)           |	 | Right rot. | O(1)      |
+| RemHead   | O(1)       | O(1)           |	 | Left rot.  | O(1)      |
+| RemTail   | O(n)       | O(1)           |	 | Find       | O(log(n)) |
+| RemBefore | O(n)       | O(n)           |	 | Clear      | O(n)      |
+| RemAfter  | O(n)       | O(n)           |	 |------------+-----------|
+| RemVal.   | O(n)       | O(n)           |
+| GetNode   | O(n)       | O(n)           |
+| FindVal   | O(n)       | O(n)           |
+| Print     | O(n)       | O(n)           |
+| Clear     | O(n)       | O(n)           |
+|-----------+------------+----------------|
+| ByteTakes | 8+x Bytes  | 16+x Bytes     |
+|-----------+------------+----------------|
+* 8/16 байт для указателя, и X для типа данных
+* В случае с String ~= 8+32=40|16+32=48 байт
+
+|-----------+-------+-------|
+|           | Stack | Queue |
+|-----------+-------+-------|
+| Name      | Notat | Notat |
+|-----------+-------+-------|
+| Push      | O(1)  | O(1)  |
+| Pop       | O(1)  | O(1)  |
+| Print     | O(n)  | O(n)  |
+| Clear     | O(n)  | O(n)  |
+|-----------+-------+-------|
+| Principle | LIFO  | FIFO  |
+|-----------+-------+-------|
+* LIFO - Last-in, First-out
+* FIFO - Fist-in, First-out 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
